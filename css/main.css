@@ -97,6 +97,33 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+body {
+  background: black;
+}
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 5px;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.btn.btn-primary {
+  text-align: center;
+  display: block;
+  vertical-align: bottom;
+}
+.btn-prmary {
+  background: black;
+  border-color: black;
+  color: white;
+}
+.btn-primary:hover {
+  background: #646464;
+  border-color: #646464;
+}
 #wrapper {
   width: 960px;
   margin-left: auto;
