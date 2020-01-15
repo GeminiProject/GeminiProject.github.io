@@ -141,14 +141,8 @@ textarea {
   position: absolute;
   top: 50%;
   right: 50%;
-  transform: translate(50%, -50%);
+  transform: translate(-75%, 100%);
   color: white;
-}
-
-.top-left {
-  position: absolute;
-  top: 8px;
-  left: 16px;
 }
 
 /* ==========================================================================
